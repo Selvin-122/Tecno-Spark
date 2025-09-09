@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A1F;
+    background-image: url('imagenes/logo_sin_fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(10, 10, 31, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid #00FFFF;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Contenedor flexible para alinear los botones */
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos al final (derecha) */
+    align-items: center;
+    padding: 1rem 5%; /* Usa un porcentaje para el padding, respetando el margen */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+header nav a {
+    color: #B2FFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+header nav a:hover {
+    color: #00FF99;
+    text-shadow: 0 0 10px #00FF99;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 100px auto 40px auto;
+    padding: 40px;
+    background: rgba(28, 28, 58, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(50, 50, 100, 0.5);
+    border: 1px solid #3A3A6B;
+}
+
+.section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background: rgba(22, 22, 46, 0.7);
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: #00FF99;
+    text-shadow: 0 0 8px rgba(0, 255, 153, 0.5);
+    border-bottom: 2px solid #00FFFF;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.section p {
+    color: #E0E0E0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #0A0A1F;
+    color: #666;
+    border-top: 2px solid #00FFFF;
+    margin-top: 40px;
+}
